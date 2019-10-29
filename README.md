@@ -2,10 +2,10 @@ Meditation-app-api is the backend server for Meditation-app, a meditation timer 
 
 This app is designed to provide an easy way for people to practice meditation, log their sessions, and journal their experiences.
 
-## ERD:
+## ERD
 https://imgur.com/7zOctcK
 
-## Tables:
+## Tables
 https://imgur.com/1oQo7Yi
 
 ## Relevant links
@@ -13,7 +13,7 @@ https://imgur.com/1oQo7Yi
 - Front end repo: https://github.com/apcaplan/Meditation-app
 - Front end deployed: https://apcaplan.github.io/Meditation-app/
 
-## Technologies used:
+## Technologies used
 - Ruby on Rails
 - PostgreSQL
 
@@ -31,7 +31,7 @@ https://imgur.com/1oQo7Yi
 | DELETE | `/records/:id`            | `records#destroy`       |
 
 
-## Setup and Installation - Instructions for Developers:
+## Setup and Installation - Instructions for Developers
 To use the program locally, fork and clone the repo. Then install dependencies with the following terminal command:
 - bundle install
 
