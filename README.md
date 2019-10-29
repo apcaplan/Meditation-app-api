@@ -1,23 +1,17 @@
 Meditation-app-api is the backend server for Meditation-app, a meditation timer and journal designed and coded by Adam Caplan.
 
-This app is designed to provide an easy way for people to practice meditation, log their sessions, and journal their experiences.   
+This app is designed to provide an easy way for people to practice meditation, log their sessions, and journal their experiences.
 
-## ERB:
-User +--<- Record
+## ERD:
+https://imgur.com/7zOctcK
 
 ## Tables:
- User               Record
-------             --------
-email              date
-password           timer
-id                 howFeel
-                   meditationQualities
-                   otherNotes
+https://imgur.com/1oQo7Yi
 
 ## Relevant links
-Backend deployed: https://meditation-app-api.herokuapp.com/
-Front end repo: https://github.com/apcaplan/Meditation-app
-Front end deployed: https://apcaplan.github.io/Meditation-app/
+- Backend deployed: https://meditation-app-api.herokuapp.com/
+- Front end repo: https://github.com/apcaplan/Meditation-app
+- Front end deployed: https://apcaplan.github.io/Meditation-app/
 
 ## Technologies used:
 - Ruby on Rails
@@ -35,7 +29,7 @@ Front end deployed: https://apcaplan.github.io/Meditation-app/
 | GET    | `/records/:id`            | `records#show`          |
 | PATCH  | `/records/:id`            | `records#update`        |
 | DELETE | `/records/:id`            | `records#destroy`       |
-|--------|---------------------------|-------------------------|
+
 
 ## Setup and Installation - Instructions for Developers:
 To use the program locally, fork and clone the repo. Then install dependencies with the following terminal command:
